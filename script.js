@@ -10,7 +10,7 @@ function checkOperator() {
 } else {
     console.log('please insert a valid input of operator!');
  }
- resetOperationSelection();
+ resetOperatorSelection();
 }
 checkOperator();
 
@@ -40,7 +40,7 @@ if (operator ==='a') {
     }
     performOperation();
 }
-function resetoperationselector(){
+function resetOperatorSelection(){
     operation = prompt('select an operation: a. add, b. subtraction, c. divide, d. multiply')
 checkoperation();
 }
